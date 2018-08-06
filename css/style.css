@@ -1,0 +1,33 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  height: 70px;
+  background-color: #121212;
+}
+.logo {
+  margin-top: 15px;
+}
+.logo a {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+.logo a span {
+  font-size: 35px;
+  font-weight: 900;
+}
+.menu {
+  margin-top: 25px;
+}
+.menu ul {
+  text-align: right;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  color: #fff;
+  padding-left: 25px;
+  text-decoration: none;
+}
