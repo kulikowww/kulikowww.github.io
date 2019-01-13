@@ -169,7 +169,7 @@ section {
     display: inline-block;
   }
   .menu__links {
-    position: fixed;
+    
     display: none;
     top: 0;
     right: 0;
