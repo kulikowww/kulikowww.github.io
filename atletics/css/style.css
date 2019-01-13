@@ -24,6 +24,9 @@ h6 {
 section {
   padding: 9rem 0;
 }
+.mt4rem {
+  margin-top: 4rem;
+}
 /* header */
 .header {
   color: #ffffff;
@@ -153,6 +156,11 @@ section {
 .menu.menu_state_open .menu__links {
   display: block;
 }
+@media screen and (min-width: 768px) {
+  .menu__links {
+    display: block;
+  }
+}
 @media screen and (max-width: 767px) {
   .menu {
     text-align: right;
@@ -166,7 +174,7 @@ section {
     top: 0;
     right: 0;
     left: 0;
-    margin-top: 52px;
+    margin-top: 67px;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 1000;
     overflow: auto;
@@ -178,36 +186,6 @@ section {
     color: #ffffff;
   }
 }
-/* .menu {
-	text-align: center;
-	letter-spacing: 5px;
-	.gothamLight();
-	color: @light;
-	font-size: 1.5rem;
-	text-transform: uppercase;
-	display: block;
-	margin: 0 auto;
-	ul {
-		margin: 0 auto;
-	}
-	li {
-		display: inline-block;
-		padding: 0rem 2rem;
-		border: none;
-	}
-	.nav-link {
-		padding: 1rem 2rem;
-	}
-	a {
-		padding: 1rem 2rem;
-		border: 1px solid transparent;
-		color: @light;
-		&:hover {
-			border: 1px solid @light;
-			text-decoration: none;
-		}
-	}
-} */
 .way {
   position: relative;
   bottom: 0;
@@ -255,7 +233,7 @@ section {
   height: 100%;
 }
 .way-media {
-  margin-bottom: 9rem;
+  margin: 4rem 0;
 }
 .way-media .media {
   margin-bottom: 4rem;
@@ -319,14 +297,17 @@ section {
   text-decoration: none;
 }
 @media screen and (max-width: 1199px) {
+  .mt4rem {
+    margin-top: 4rem;
+  }
   .way-media {
     margin-bottom: 0;
   }
 }
 @media screen and (max-width: 991px) {
-  .way-success h3 {
-    margin-top: 4rem;
-  }
+  /* .way-success h3 {
+		margin-top: 4rem;
+	} */
   .menu li {
     padding: 1rem;
   }
@@ -366,6 +347,9 @@ section {
   }
 }
 @media screen and (max-width: 576px) {
+  \ section {
+    padding: 4rem 0;
+  }
   .parallax-mirror {
     height: 50rem;
   }
