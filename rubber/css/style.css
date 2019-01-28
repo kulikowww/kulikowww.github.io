@@ -623,6 +623,9 @@ button {
   .stages .stages-item .stages-block .stages-prefix {
     left: 15%;
   }
+  .form-block form .form-block-input {
+    padding-right: 6rem;
+  }
   .about-block .line {
     top: 33%;
     width: 75%;
