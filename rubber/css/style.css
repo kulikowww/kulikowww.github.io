@@ -20,6 +20,9 @@ h6 {
 section {
   padding: 5rem 0;
 }
+input:focus {
+  outline: none;
+}
 button {
   /* line-height: 100px; */
 }
@@ -44,6 +47,9 @@ button {
   height: 2rem;
   border: none;
   transform: translateY(-50%);
+}
+.arrow:focus {
+  outline: 0;
 }
 .prev {
   left: 20%;
@@ -132,6 +138,9 @@ button {
   line-height: 2.2rem;
   text-align: center;
   font-size: 1.7rem;
+}
+.header-features .slick-slide:focus {
+  outline: 0;
 }
 .header .form {
   margin-left: auto;
@@ -294,7 +303,7 @@ button {
 .catalog .cards .btn-price {
   margin-top: 2rem;
   width: 100%;
-  padding: 0.8rem 4rem;
+  padding: 0.8rem 3rem;
   border-radius: 2rem;
   /* padding: 0.8rem 2rem;
 			border-radius: 1rem; */
@@ -546,6 +555,8 @@ button {
   font-size: 1.2rem;
   text-align: center;
   display: block;
+  color: #000;
+  margin-top: 0.5rem;
 }
 .popup-close {
   position: absolute;
@@ -558,6 +569,9 @@ button {
   background-color: transparent;
   font-size: 3rem;
   color: #ffffff;
+}
+.popup-close:focus {
+  outline: none;
 }
 .popup-header {
   font-family: 'Proxima-Nova-Bold', sans-serif;
