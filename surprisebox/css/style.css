@@ -10,7 +10,7 @@ li {
 .section-header {
   text-align: center;
   margin: 4rem 0;
-  font-family: 'GothamProBold';
+  font-family: 'GothamProBold', sans-serif;
   text-transform: uppercase;
   font-size: 2.3rem;
   color: #000000;
@@ -66,7 +66,7 @@ li {
   margin-left: 0;
 }
 .header .menu .overlayMenu li a {
-  font-family: 'GothamProRegular';
+  font-family: 'GothamProRegular', sans-serif;
   text-decoration: none;
   color: #000000;
 }
@@ -84,7 +84,7 @@ li {
   color: #ffffff;
   font-size: 4.5rem;
   line-height: 47px;
-  font-family: 'GothamProBold';
+  font-family: 'GothamProBold', sans-serif;
   text-transform: uppercase;
 }
 .header .main-subtitle {
@@ -118,7 +118,7 @@ li {
   text-align: left;
   font-size: 2.1rem;
   color: #dd0a35;
-  font-family: 'GothamProBold';
+  font-family: 'GothamProBold', sans-serif;
 }
 .catalog-block .block-paragraph {
   text-align: left;
@@ -127,7 +127,7 @@ li {
 .catalog-block .block-strong {
   text-transform: uppercase;
   font-size: 1.5rem;
-  font-family: 'GothamProBold';
+  font-family: 'GothamProBold', sans-serif;
   text-align: left;
 }
 .catalog-block .block-thinks {
@@ -137,7 +137,7 @@ li {
 .catalog-block .block-price {
   text-align: left;
   font-size: 2rem;
-  font-family: 'GothamProBold';
+  font-family: 'GothamProBold', sans-serif;
   color: #dd0a35;
 }
 .catalog-block img {
@@ -168,7 +168,7 @@ li {
   text-align: center;
   font-size: 2.1rem;
   color: #000000;
-  font-family: 'GothamProBold';
+  font-family: 'GothamProBold', sans-serif;
   margin-top: 2rem;
 }
 .stages-block .icon-subtitle {
@@ -205,7 +205,7 @@ li {
   text-align: left;
   font-size: 2.1rem;
   color: #000000;
-  font-family: 'GothamProBold';
+  font-family: 'GothamProBold', sans-serif;
   margin-top: 2rem;
 }
 .delivery-block .delivery-content .delivery-text {
@@ -213,7 +213,7 @@ li {
 }
 .delivery-block .delivery-content p {
   font-size: 1.5rem;
-  font-family: 'GothamProRegular';
+  font-family: 'GothamProRegular', sans-serif;
   color: #000000;
 }
 .delivery-block .delivery-content p span {
@@ -243,7 +243,7 @@ li {
 .surprise-block h3 {
   text-transform: uppercase;
   color: #dd0a35;
-  font-family: 'GothamProBold';
+  font-family: 'GothamProBold', sans-serif;
   margin-top: 2rem;
 }
 .surprise-block p {
@@ -539,7 +539,7 @@ li {
     margin: 1rem 0;
   }
   .header .menu .overlayMenu ul li a {
-    font-family: 'GothamProRegular';
+    font-family: 'GothamProRegular', sans-serif;
     display: inline-block;
     color: #fff;
     text-decoration: none;
