@@ -39,6 +39,9 @@ li {
 .feedback-popup {
   width: 100%;
 }
+iframe {
+  border: 0;
+}
 .header {
   /* Шапка сайта */
   position: relative;
@@ -259,8 +262,30 @@ li {
 .feedback .feedback-block .feedback-img {
   width: 100%;
 }
+.contacts {
+  padding: 4rem 0;
+  font-size: 1.5rem;
+}
+.contacts iframe {
+  height: 100%;
+}
+.contacts .maps-contacts {
+  background-color: #f4f4f4;
+  padding: 4rem 0;
+  text-align: center;
+}
+.contacts .contacts-header {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-size: 2.1rem;
+  color: #dd0a35;
+  font-family: 'GothamProBold', sans-serif;
+}
+.contacts .contacts-text span {
+  display: block;
+  font-weight: bold;
+}
 .footer {
-  margin-top: 4rem;
   padding: 2rem 0;
   background-color: #dd0a35;
 }
@@ -278,7 +303,7 @@ li {
   background-color: #ffffff;
 }
 .footer .social {
-  line-height: 4.5rem;
+  line-height: 5rem;
   text-align: right;
 }
 .footer .social-item {
@@ -571,6 +596,12 @@ li {
   }
   .delivery-block .delivery-content {
     padding: 2rem;
+  }
+  .contacts iframe {
+    height: 30rem;
+  }
+  .contacts .maps-contacts {
+    margin-top: 2rem;
   }
   .footer .menu-img {
     display: none;

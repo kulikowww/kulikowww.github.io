@@ -5,11 +5,11 @@
 @black: #000;
 @grey: #f4f4f4;
 
-.bold () {
-	font-family: 'GothamProBold';
+.bold() {
+	font-family: 'GothamProBold', sans-serif;
 }
-.reg () {
-	font-family: 'GothamProRegular';
+.reg() {
+	font-family: 'GothamProRegular', sans-serif;
 }
 
 html {
@@ -45,6 +45,9 @@ ul, li {
 }
 .feedback-popup {
 	width: 100%;
+}
+iframe {
+	border: 0;
 }
 .header { /* Шапка сайта */
 	position: relative;
@@ -278,8 +281,32 @@ ul, li {
 		}
 	}
 }
+.contacts {
+	padding: 4rem 0;
+	font-size: 1.5rem;
+	iframe {
+		height: 100%;
+	}
+	.maps-contacts {
+		background-color: @grey;
+		padding: 4rem 0;
+		text-align: center;
+	}
+	.contacts-header {
+		text-transform: uppercase;
+		margin-bottom: 1rem;
+		font-size: 2.1rem;
+		color: @main;
+		.bold();
+	}
+	.contacts-text {
+		span {
+			display: block;
+			font-weight: bold;
+		}
+	}
+}
 .footer {
-	margin-top: 4rem;
 	padding: 2rem 0;
 	background-color: @main;
 	&-top {
@@ -296,7 +323,7 @@ ul, li {
 		}
 	}
 	.social {
-		line-height: 4.5rem;
+		line-height: 5rem;
 		text-align: right;
 		&-item {
 			margin-left: 0.5rem;
@@ -618,6 +645,14 @@ ul, li {
 			.delivery-content {
 				padding: 2rem;
 			}
+		}
+	}
+	.contacts {
+		iframe {
+			height: 30rem;
+		}
+		.maps-contacts {
+			margin-top: 2rem;
 		}
 	}
 	.footer {
